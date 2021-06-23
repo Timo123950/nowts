@@ -1,0 +1,90 @@
+{
+  "defaultSeverity": "error",
+  "jsRules": {},
+  "rules": {
+    "quotemark": [true, "single"],
+    "no-console": false,
+    "interface-name": [true, "never-prefix"],
+    "max-classes-per-file": false,
+    "array-type": [true, "array"],
+    "arrow-parens": [true, "ban-single-arg-parens"],
+    "no-empty": false,
+    "no-shadowed-variable": false,
+    "trailing-comma": false,
+    "no-empty-interface": false,
+    "no-unused-variable": true,
+    "no-duplicate-imports": true,
+    "adjacent-overload-signatures": true,
+    "ban-types": {
+      "options": [
+        ["Object", "Avoid using the `Object` type. Did you mean `object`?"],
+        [
+          "Function",
+          "Avoid using the `Function` type. Prefer a specific function type, like `() => void`."
+        ],
+        ["Boolean", "Avoid using the `Boolean` type. Did you mean `boolean`?"],
+        ["Number", "Avoid using the `Number` type. Did you mean `number`?"],
+        ["String", "Avoid using the `String` type. Did you mean `string`?"],
+        ["Symbol", "Avoid using the `Symbol` type. Did you mean `symbol`?"]
+      ]
+    },
+    "callable-types": true,
+    "class-name": true,
+    "comment-format": {
+      "options": ["check-space"]
+    },
+    "cyclomatic-complexity": false,
+    "forin": true,
+    "jsdoc-format": true,
+    "label-position": true,
+    "new-parens": true,
+    "no-angle-bracket-type-assertion": true,
+    "no-any": false,
+    "no-arg": true,
+    "no-bitwise": true,
+    "no-conditional-assignment": true,
+    "no-construct": true,
+    "no-debugger": true,
+    "no-duplicate-super": true,
+    "no-eval": true,
+    "no-internal-module": true,
+    "no-invalid-this": false,
+    "no-misused-new": true,
+    "no-namespace": true,
+    "no-parameter-properties": false,
+    "no-reference": true,
+    "no-reference-import": true,
+    "no-string-literal": true,
+    "no-string-throw": true,
+    "no-switch-case-fall-through": false,
+    "no-trailing-whitespace": true,
+    "no-unnecessary-initializer": true,
+    "no-unsafe-finally": true,
+    "no-unused-expression": true,
+    "no-use-before-declare": false,
+    "no-var-keyword": true,
+    "no-var-requires": true,
+    "object-literal-shorthand": true,
+    "one-variable-per-declaration": { "options": ["ignore-for-loop"] },
+    "only-arrow-functions": {
+      "options": ["allow-declarations", "allow-named-functions"]
+    },
+    "prefer-const": true,
+    "prefer-for-of": true,
+    "radix": true,
+    "triple-equals": { "options": ["allow-null-check"] },
+    "typedef": false,
+    "typeof-compare": false,
+    "unified-signatures": true,
+    "use-isnan": true,
+    "variable-name": {
+      "options": [
+        "allow-leading-underscore",
+        "ban-keywords",
+        "check-format",
+        "allow-pascal-case"
+      ]
+    }
+  },
+  "rulesDirectory": []
+}
